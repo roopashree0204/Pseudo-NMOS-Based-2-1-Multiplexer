@@ -54,6 +54,9 @@ Transient simulation verifies the multiplexer functionality and demonstrates the
 - Improved output swing using a CMOS inverter
 - Trade-off between area, power, and performance
 
+## Google site link
+https://sites.google.com/view/cmosopenended/results
+
 ## Conclusion
 
 The pseudo-NMOS based 2:1 multiplexer was successfully designed and simulated in Cadence Virtuoso. The design demonstrates the advantages of reduced transistor count while highlighting the static power and output-level limitations of pseudo-NMOS logic.
