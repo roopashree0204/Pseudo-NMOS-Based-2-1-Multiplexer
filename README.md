@@ -30,19 +30,13 @@ The NMOS pull-down network selects the required input based on the select signal
 
 ## Design Implementation
 
-![MUX Schematic](image.png)
-
 The design consists of an always-ON PMOS pull-up, an NMOS pull-down network, and a CMOS inverter for output signal restoration.
 
-## Testbench
-
-![Testbench](testbench.jpeg)
+## Schematic and Symbol
 
 Pulse voltage sources are applied to A, B, and S, with a 1.8 V DC supply used for the circuit.
 
 ## Simulation Results
-
-![Waveform](waveform.jpeg)
 
 Transient simulation verifies the multiplexer functionality and demonstrates the degraded output level before the inverter and the restored logic swing after the inverter.
 
